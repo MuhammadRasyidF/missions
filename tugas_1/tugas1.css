@@ -1,4 +1,4 @@
-table{
+table {
   table-layout: fixed;
   width: 100%;
   height: 100%;
@@ -9,38 +9,38 @@ table{
   right: 0%;
 }
 
-.txt-yellow{
-    color: yellow;
+.txt-yellow {
+  color: yellow;
 }
 
-.txt-black{
-    color: black;
+.txt-black {
+  color: black;
 }
 
-.bg-red{
-    background-color: red;
+.bg-red {
+  background-color: red;
 }
 
-.bg-orange{
-    background-color: orange;
+.bg-orange {
+  background-color: orange;
 }
 
-.bg-pink{
-    background-color: rgb(223, 143, 157);
+.bg-pink {
+  background-color: rgb(223, 143, 157);
 }
 
-.bg-green{
-    background-color: green;
+.bg-green {
+  background-color: green;
 }
 
-.bg-purple{
-    background-color: rgb(95, 11, 138);
+.bg-purple {
+  background-color: rgb(95, 11, 138);
 }
 
-.bg-yellow{
-    background-color: yellow;
+.bg-yellow {
+  background-color: yellow;
 }
 
-.bg-blue{
-    background-color: blue;
+.bg-blue {
+  background-color: blue;
 }
