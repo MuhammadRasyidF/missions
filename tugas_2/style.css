@@ -1,0 +1,59 @@
+body {
+  min-height: 2000px;
+}
+
+.jumbotron {
+  padding: 2rem 2rem;
+  background-color: rgb(233, 236, 239);
+}
+
+.btn-wht {
+  background-color: white;
+}
+
+#isi {
+  padding-top: 2rem;
+  width: 70%;
+  margin: auto;
+}
+
+footer {
+  padding-top: 2rem;
+  width: 70%;
+  margin: auto;
+}
+
+nav {
+  padding-top: 2rem;
+  width: 70%;
+  margin: auto;
+}
+
+.mt-3 {
+  margin-top: 3rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+p {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.non-line-text {
+  text-decoration: none;
+}
+
+.non-line-text:hover {
+  text-decoration: underline;
+}
+
+.color-red {
+  color: red;
+}
+
+.color-red:hover {
+  color: red;
+}
