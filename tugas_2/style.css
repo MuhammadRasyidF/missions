@@ -7,6 +7,10 @@
   background-color: white;
 }
 
+.btn-green {
+  background-color: #65d777;
+}
+
 #isi {
   padding-top: 2rem;
   width: 70%;
@@ -20,6 +24,12 @@ footer {
 }
 
 nav {
+  padding-top: 2rem;
+  width: 70%;
+  margin: auto;
+}
+
+.form {
   padding-top: 2rem;
   width: 70%;
   margin: auto;
@@ -53,3 +63,33 @@ p {
 .color-red:hover {
   color: red;
 }
+
+.color-wht {
+  color: rgb(255, 255, 255);
+}
+
+.color-wht:hover {
+  color: rgb(255, 255, 255);
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.padding-zero {
+  padding-right: 0%;
+  padding-left: 0%;
+}
+
+.mg-top-zero {
+  margin-top: 0rem;
+}
+
+.form-control {
+  padding-right: 13.5rem;
+}
+
+/* .cust-button {
+  line-height: 1.125rem;
+  padding: 0.5rem 1rem;
+} */
