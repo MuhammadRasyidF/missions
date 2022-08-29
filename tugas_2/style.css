@@ -35,6 +35,10 @@ nav {
   margin: auto;
 }
 
+.mt-5 {
+  margin-top: 5rem;
+}
+
 .mt-3 {
   margin-top: 3rem;
 }
@@ -76,8 +80,11 @@ p {
   text-decoration: underline;
 }
 
-.padding-zero {
+.paddingR-zero {
   padding-right: 0%;
+}
+
+.paddingL-zero {
   padding-left: 0%;
 }
 
@@ -88,8 +95,3 @@ p {
 .form-control {
   padding-right: 13.5rem;
 }
-
-/* .cust-button {
-  line-height: 1.125rem;
-  padding: 0.5rem 1rem;
-} */
