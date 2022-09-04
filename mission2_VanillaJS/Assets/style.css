@@ -1,0 +1,14 @@
+#ship {
+  position: fixed;
+  /* left: 10vw; */
+  top: 50vh;
+  width: 10vw;
+  align-items: center;
+}
+#ship2 {
+  position: fixed;
+  /* left: 10vw; */
+  top: 55vh;
+  width: 10vw;
+  align-items: center;
+}
