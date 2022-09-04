@@ -1,14 +1,85 @@
 #ship {
   position: fixed;
-  /* left: 10vw; */
-  top: 50vh;
-  width: 10vw;
+  top: 45vh;
+  width: 25vw;
   align-items: center;
 }
-#ship2 {
+
+#stripSea {
+  position: fixed;
+  left: 32vw;
+  top: 74vh;
+  width: 70%;
+  height: auto;
+  align-items: center;
+}
+
+#mountain1 {
   position: fixed;
   /* left: 10vw; */
-  top: 55vh;
-  width: 10vw;
+  top: 27vh;
+  width: 100%;
+  height: auto;
   align-items: center;
+}
+
+#mountain2 {
+  position: fixed;
+  /* left: 10vw; */
+  top: 37vh;
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+#mountain3 {
+  position: fixed;
+  /* left: 10vw; */
+  top: 27vh;
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+#cloud1 {
+  position: fixed;
+  left: 65vw;
+  top: 1vh;
+  width: 10%;
+  height: auto;
+  align-items: center;
+}
+
+#cloud2 {
+  position: fixed;
+  left: 30vw;
+  top: 10vh;
+  width: 10%;
+  height: auto;
+  align-items: center;
+}
+
+#cloud3 {
+  position: fixed;
+  left: 44vw;
+  top: 23vh;
+  width: 10%;
+  height: auto;
+  align-items: center;
+}
+
+#textBox {
+  position: fixed;
+  left: 50vw;
+  top: 25vh;
+  width: 40%;
+  height: auto;
+  align-items: center;
+}
+
+body {
+  background-image: url("img/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
