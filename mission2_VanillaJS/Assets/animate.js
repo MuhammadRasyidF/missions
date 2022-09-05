@@ -1,7 +1,7 @@
 function moveShip() {
   window.addEventListener("load", (event) => {
     var move = 100;
-    var updown = 270;
+    var updown = 350;
     var changeDir = 1;
     var changeDirUp = 1;
     setInterval(() => {
@@ -16,9 +16,9 @@ function moveShip() {
       } else if (move <= 100) {
         changeDir = 1;
       }
-      if (updown >= 280) {
+      if (updown >= 360) {
         changeDirUp = -1;
-      } else if (updown <= 270) {
+      } else if (updown <= 350) {
         changeDirUp = 1;
       }
     }, 20);
@@ -94,12 +94,24 @@ function appearBG() {
   });
 }
 
-// function stop() {
-//   clearTimeout(animate);
-//   imgObj.style.left = "0px";
-//   time = 0;
-// }
+function moveStripSea() {
+  window.addEventListener("load", (event) => {
+    var move = 32;
+    var changeDir = 1;
+    setInterval(() => {
+      stripSea.style.left = move + "vw";
+      move = move + 0.1 * changeDir;
+
+      if (move >= 40) {
+        changeDir = -1;
+      } else if (move <= 32) {
+        changeDir = 1;
+      }
+    }, 20);
+  });
+}
 
 appearBG();
 moveShip();
 moveKinton();
+moveStripSea();
