@@ -75,22 +75,61 @@ function moveKinton() {
   });
 }
 
-function appearBG() {
+function appearText() {
   window.addEventListener("load", (event) => {
-    let distance = -200;
-    let moveIn = setInterval(() => {
-      stones.style.bottom = distance + "px";
-      moon.style.top = distance + "px";
+    var opacity = 0;
+    var fadeIn = setInterval(() => {
+      opacity += 0.005;
+      content.style.opacity = opacity;
+      if (opacity == 1) clearInterval(fadeIn);
+    }, 20);
+  });
+}
+
+function Mountain1() {
+  window.addEventListener("load", (event) => {
+    var opacity = 0;
+    var fadeIn = setInterval(() => {
+      opacity += 0.07;
+      mountain1.style.opacity = opacity;
+      if (opacity == 1) clearInterval(fadeIn);
+    }, 20);
+  });
+}
+
+function Mountain2() {
+  window.addEventListener("load", (event) => {
+    var distance = 3;
+    var moveIn = setInterval(() => {
+      mountain2.style.bottom = distance + "vh";
       distance += 1;
-      if (distance == 0) clearInterval(moveIn);
-    }, 5);
+      if (distance >= 37) clearInterval(moveIn);
+    }, 20);
+
+    var opacity = 0;
+    var fadeIn = setInterval(() => {
+      opacity += 0.02;
+      mountain2.style.opacity = opacity;
+      if (opacity == 1) clearInterval(fadeIn);
+    }, 20);
+  });
+}
+
+function Mountain3() {
+  window.addEventListener("load", (event) => {
+    var distance = 3;
+    var moveIn = setInterval(() => {
+      mountain3.style.bottom = distance + 4 + "vh";
+      distance += 0.6;
+      if (distance >= 37) clearInterval(moveIn);
+    }, 20);
 
     let opacity = 0;
     let fadeIn = setInterval(() => {
-      opacity += 0.05;
-      command.style.opacity = opacity;
+      opacity += 0.02;
+      mountain3.style.opacity = opacity;
       if (opacity == 1) clearInterval(fadeIn);
-    }, 50);
+    }, 20);
   });
 }
 
@@ -111,7 +150,10 @@ function moveStripSea() {
   });
 }
 
-appearBG();
+Mountain1();
+Mountain2();
+Mountain3();
 moveShip();
 moveKinton();
 moveStripSea();
+appearText();
